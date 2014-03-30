@@ -10,7 +10,7 @@
         "mixpanel": "0.0.18",
         "st": "0.2.5",
         "octonode": "0.6.0",
-        "markdown": "0.5.0",
+        "marked": "0.3.2",
         "express-useragent": "git+https://github.com/SamyPesse/express-useragent.git#6bdbb5c7fbd1ac3de0cf621c179b55602f00b3b8",
         "passport": "0.1.17",
         "passport-github": "git+https://github.com/amayem/passport-github.git#4c168c3272251c23541bbc33213c2e9420ff695d"
