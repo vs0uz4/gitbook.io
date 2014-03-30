@@ -1,0 +1,10 @@
+{% extends "../layout.html" %}
+
+{% block title %}{{ page.path }} {{ book.name }}{% parent %}{% endblock %}
+{% block description %}{% endblock %}
+{% block robots %}index, follow{% endblock %}
+{% block content %}
+<div>
+{% autoescape false %}{{ content }}{% endautoescape %}
+</div>
+{% endblock %}
