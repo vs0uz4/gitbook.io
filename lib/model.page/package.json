@@ -1,0 +1,16 @@
+{
+    "name": "model.page",
+    "version": "0.0.1",
+
+    "main": "./main.js",
+    "private": true,
+
+    "plugin": {
+        "provides": [
+            "Page"
+        ],
+        "consumes": [
+            "logger", "analytics", "github", "config", "Model"
+        ]
+    }
+}

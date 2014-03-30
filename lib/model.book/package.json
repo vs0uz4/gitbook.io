@@ -1,0 +1,16 @@
+{
+    "name": "model.book",
+    "version": "0.0.1",
+
+    "main": "./main.js",
+    "private": true,
+
+    "plugin": {
+        "provides": [
+            "Book"
+        ],
+        "consumes": [
+            "logger", "analytics", "github", "config", "Model", "Page"
+        ]
+    }
+}

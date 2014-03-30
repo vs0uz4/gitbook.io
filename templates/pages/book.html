@@ -1,0 +1,8 @@
+{% extends "../layout.html" %}
+
+{% block title %}{{ book.name }}{% parent %}{% endblock %}
+{% block description %}{% endblock %}
+{% block robots %}index, follow{% endblock %}
+{% block content %}
+<h1>{{ book.name }}</h1>
+{% endblock %}
