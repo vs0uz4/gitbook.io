@@ -31,7 +31,7 @@ module.exports = function (grunt) {
                 src: ['templates/*.swig'],
                 generateSitemap: true,
                 generateRobotstxt: true,
-                siteUrl: 'http://gitbook.io',
+                siteUrl: 'http://www.gitbook.io',
                 production: true,
                 ga_account_id: 'UA-xxxxxxxx-1',
                 
