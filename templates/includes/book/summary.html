@@ -1,6 +1,9 @@
 <div class="book-summary">
     <ul class="summary">
-    <li></li>
+    <li>
+        <a href="/book/{{ book.attributes.full_name }}/README.md">Introduction</a>
+    </li>
+    <li class="divider"></li>
     {% for item in book.attributes.gitbook.summary %}
         <li>
             <a href="/book/{{ book.attributes.full_name }}/{{ item.path }}">{{ item.title }}</a>
