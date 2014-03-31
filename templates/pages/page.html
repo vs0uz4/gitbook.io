@@ -12,11 +12,12 @@
         <div class="book-body">
             <div class="page-inner">
             {% for section in content %}
+                <section class="{{ section.type }}">
                 {% if section.type == "normal" %}
-                    <section class="normal">
                     {% autoescape false %}{{ section.content }}{% endautoescape %}
-                    </section>
+                {% elif section.type == "exercise" %}
                 {% endif %}
+                </section>
             {% endfor %}
             </div>
         </div>
