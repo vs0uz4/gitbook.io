@@ -9,10 +9,15 @@
         {% include "../includes/book/header.html" %}
         {% include "../includes/book/summary.html" %}
 
-
         <div class="book-body">
             <div class="page-inner">
-            {% autoescape false %}{{ content }}{% endautoescape %}
+            {% for section in content %}
+                {% if section.type == "normal" %}
+                    <section class="normal">
+                    {% autoescape false %}{{ section.content }}{% endautoescape %}
+                    </section>
+                {% endif %}
+            {% endfor %}
             </div>
         </div>
     </div>
