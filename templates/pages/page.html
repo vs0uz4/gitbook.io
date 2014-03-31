@@ -1,12 +1,18 @@
 {% extends "../layout.html" %}
 
-{% block title %}{{ page.path }} {{ book.name }}{% parent %}{% endblock %}
+{% block title %}{{ page.attributes.path }} {{ book.attributes.name }}{% parent %}{% endblock %}
 {% block description %}{% endblock %}
 {% block robots %}index, follow{% endblock %}
 {% block content %}
-<div id="gitbook-bookpage" class="gitbook-page">
-    <div class="page-inner">
-    {% autoescape false %}{{ content }}{% endautoescape %}
+<div class="book">
+    {% include "../includes/book/header.html" %}
+    {% include "../includes/book/summary.html" %}
+    <div class="book-body">
+        <div id="gitbook-bookpage">
+            <div class="page-inner">
+            {% autoescape false %}{{ content }}{% endautoescape %}
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}

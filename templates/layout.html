@@ -3,7 +3,7 @@
     <head>
         {% block head %}
         <meta charset="UTF-8">
-        <title>{% block title %} | Gitbook{% endblock %}</title>
+        <title>{% block title %} | GitBook{% endblock %}</title>
         {% if config.debug %}
         <meta name="robots" content="noindex, nofollow">
         {% else %}
@@ -14,9 +14,9 @@
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="{% block description %}{% endblock %}">
         <meta name="keywords" content="{% block keywords %}{% endblock %}" >
-        <meta name="og:title" content="{% block title %} | Codebox{% endblock %}">
+        <meta name="og:title" content="{% block title %} | GitBook{% endblock %}">
         <meta name="og:locale" content="en_US">
-        <meta name="og:site_name" content="Codebox">
+        <meta name="og:site_name" content="GitBook">
         <meta name="og:url" content="{{ config.web.url }}">
         <meta name="og:description" content="{% block description %}{% endblock %}">
         <meta name="og:image" content="/static/images/icons/ios.png" >
@@ -28,6 +28,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         {% endblock %}
     </head>
     <body>

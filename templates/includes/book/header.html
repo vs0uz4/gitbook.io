@@ -1,0 +1,21 @@
+<div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i> Summary</a>
+
+    <!-- Actions Right -->
+    <a href="/star/{{ book.attributes.full_name }}" class="btn pull-right"><i class="fa fa-star-o"></i> Star</a>
+    <a href="/watch/{{ book.attributes.full_name }}" class="btn pull-right"><i class="fa fa-eye"></i> Watch</a>
+
+
+    <!-- Title -->
+    <h1><a href="/book/{{ book.attributes.full_name }}" >{{ book.attributes.name }}</a></h1>
+</div>
+<script>
+$(document).ready(function() {
+    var $book = $(".book");
+    $book.find(".book-header .toggle-summary").click(function(e) {
+        e.preventDefault();
+        $book.toggleClass("with-summary");
+    });
+});
+</script>
