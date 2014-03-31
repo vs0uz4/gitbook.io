@@ -38,12 +38,52 @@
 
     .featured {
         padding: 100px 0px;
-        max-width: 800px;
+        max-width: 900px;
         margin: 0px auto;
 
-        h3 {
+        h2 {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #fff;
+            display: inline-block;
+        }
+
+        .book {
+            background: rgba(0, 0, 0, 0.3);
+            text-align: left;
+            margin: 5px 0px;
+            border-radius: 2px;
+            
+            .content {
+                padding: 10px 15px;
+
+                h3 {
+                    margin: 0px;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    margin: 0px;
+                    font-size: 16px;
+                    opacity: 0.6;
+                }
+            }
+
             a {
                 color: inherit;
+                display: block;
+                text-align: center;
+                background: rgba(0, 0, 0, 0.2);
+                padding: 6px 10px;
+                font-size: 18px;
+                text-transform: uppercase;
+
+                &:hover {
+                    background: rgba(0, 0, 0, 0.4);
+                    text-decoration: none;
+                }
             }
         }
     }
