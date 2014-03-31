@@ -5,11 +5,12 @@ module.exports = function (grunt) {
     // Load NPM tasks
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-swig');
+    grunt.loadNpmTasks('grunt-gh-pages');
 
     // Init GRUNT configuraton
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
-        less: {
+        'pkg': grunt.file.readJSON('package.json'),
+        'less': {
             development: {
                 options: {
                     compress: true,
@@ -21,7 +22,7 @@ module.exports = function (grunt) {
                 }
             }
         },
-        swig: {
+        'swig': {
             development: {
                 init: {
                     autoescape: true
@@ -36,6 +37,12 @@ module.exports = function (grunt) {
                 
                 featured: FEATURED
             }
+        },
+        'gh-pages': {
+            options: {
+                base: 'www'
+            },
+            src: ['**']
         }
     });
 
@@ -43,6 +50,10 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'less',
         'swig'
+    ]);
+
+    grunt.registerTask('publish', [
+        'gh-pages'
     ]);
 
     grunt.registerTask('default', [
