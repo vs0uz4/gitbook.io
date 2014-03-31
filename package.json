@@ -13,7 +13,8 @@
         "marked": "0.3.2",
         "express-useragent": "git+https://github.com/SamyPesse/express-useragent.git#6bdbb5c7fbd1ac3de0cf621c179b55602f00b3b8",
         "passport": "0.1.17",
-        "passport-github": "0.1.5"
+        "passport-github": "0.1.5",
+        "gitbook": "git+https://github.com/GitbookIO/gitbook.git#7ab78b420a2805084b74078aa7db3fac903046fd"
     },
     "devDependencies": {
         "vows": "0.7.0",
