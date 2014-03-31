@@ -1,9 +1,10 @@
-module.exports = function (grunt) {
-    var path = require("path");
+var path = require("path");
+var FEATURED = require("./featured.json");
 
+module.exports = function (grunt) {
     // Load NPM tasks
     grunt.loadNpmTasks('grunt-contrib-less');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-swig');
 
     // Init GRUNT configuraton
     grunt.initConfig({
@@ -16,30 +17,35 @@ module.exports = function (grunt) {
                     optimization: 2
                 },
                 files: {
-                    "public/static/style.css": "public/stylesheets/main.less"
+                    "www/static/style.css": "stylesheets/main.less"
                 }
             }
         },
-        watch: {
-            styles: {
-                files: [
-                    'public/stylesheets/**/*.less'
-                ],
-                tasks: ['build'],
-                options: {
-                    nospawn: true
-                }
+        swig: {
+            development: {
+                init: {
+                    autoescape: true
+                },
+                dest: "www/",
+                src: ['templates/*.swig'],
+                generateSitemap: true,
+                generateRobotstxt: true,
+                siteUrl: 'http://gitbook.io',
+                production: true,
+                ga_account_id: 'UA-xxxxxxxx-1',
+                
+                featured: FEATURED
             }
         }
     });
 
     // Build
     grunt.registerTask('build', [
-        'less'
+        'less',
+        'swig'
     ]);
 
     grunt.registerTask('default', [
-        'build',
-        'watch'
+        'build'
     ]);
 };
