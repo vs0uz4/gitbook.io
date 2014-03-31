@@ -3,6 +3,9 @@
     <li>
         <a href="/book/{{ book.attributes.full_name }}/README.md">Introduction</a>
     </li>
+    <li>
+        <a href="https://github.com/{{ book.attributes.owner.login }}" target="blank">About the author</a>
+    </li>
     <li class="divider"></li>
     {% for item in book.attributes.gitbook.summary %}
         <li>

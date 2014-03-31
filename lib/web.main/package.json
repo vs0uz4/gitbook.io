@@ -7,7 +7,7 @@
 
     "plugin": {
         "consumes": [
-            "config", "logger", "analytics", "routes"
+            "config", "logger", "analytics", "routes", "github"
         ]
     }
 }
