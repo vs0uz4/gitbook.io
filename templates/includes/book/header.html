@@ -1,10 +1,11 @@
 <div class="book-header">
     <!-- Actions Left -->
+    <a href="https://github.com/{{ book.attributes.full_name }}" target="_blank" class="btn pull-left"><i class="fa fa-github-alt"></i></a>
     <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i> Summary</a>
 
     <!-- Actions Right -->
-    <a href="/star/{{ book.attributes.full_name }}" class="btn pull-right"><i class="fa fa-star-o"></i> Star</a>
-    <a href="/watch/{{ book.attributes.full_name }}" class="btn pull-right"><i class="fa fa-eye"></i> Watch</a>
+    <a href="/star/{{ book.attributes.full_name }}" class="btn pull-right"><i class="fa fa-star-o"></i> Star ({{ book.attributes.stargazers_count }})</a>
+    <a href="/watch/{{ book.attributes.full_name }}" class="btn pull-right"><i class="fa fa-eye"></i> Watch ({{ book.attributes.subscribers_count }})</a>
 
 
     <!-- Title -->
