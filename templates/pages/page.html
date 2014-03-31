@@ -5,7 +5,7 @@
 {% block robots %}index, follow{% endblock %}
 {% block content %}
 <div id="gitbook-bookpage">
-    <div class="book">
+    <div class="book {% if page.attributes.path == "README.md" %}with-summary{% endif %}">
         {% include "../includes/book/header.html" %}
         {% include "../includes/book/summary.html" %}
         <div class="book-body">
