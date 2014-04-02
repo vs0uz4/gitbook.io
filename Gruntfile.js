@@ -35,6 +35,7 @@ module.exports = function (grunt) {
                 production: true,
                 ga_account_id: 'UA-xxxxxxxx-1',
                 
+                example: "http://gitbookio.github.io/javascript/",
                 featured: FEATURED
             }
         },
