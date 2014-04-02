@@ -109,7 +109,7 @@
                   —  
                 <a href="https://github.com/orgs/GitbookIO/members">Made with <i class="fa fa-heart"></i> by a dedicated team</a>
                   —  
-                <a href="/book/GitbookIO/about">About GitBook</a>
+                <a href="https://github.com/GitbookIO/gitbook#gitbook">About GitBook</a>
             </div>
         </div>
     </body>
