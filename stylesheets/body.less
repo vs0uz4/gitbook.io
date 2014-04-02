@@ -8,9 +8,11 @@
         text-align: left;
         margin: 15px 0px;
         border-radius: 2px;
+        padding: 10px;
+        text-align: center;
         
         .content {
-            padding: 10px 15px;
+            padding-bottom: 15px;
 
             h3 {
                 margin: 0px;
@@ -30,13 +32,14 @@
             color: inherit;
             display: block;
             text-align: center;
-            background: rgba(0, 0, 0, 0.2);
+            background: @brand-success;
+            color: #fff;
             padding: 6px 10px;
             font-size: 18px;
             text-transform: uppercase;
 
             &:hover {
-                background: rgba(0, 0, 0, 0.4);
+                background: darken(@brand-success, 15%);
                 text-decoration: none;
             }
         }

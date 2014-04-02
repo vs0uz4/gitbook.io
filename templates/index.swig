@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>GitBook</title>
-        <link rel="icon" href="static/images/icons/32.png">
+        <link rel="icon" href="static/images/favicon.ico">
         <link rel="stylesheet" href="static/style.css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -14,7 +14,7 @@
             <div id="header">
                 <div class="inner">
                     <h1>GitBook</h1>
-                    <p class="intro">Read and Write beautiful book and tutorials today.</p>
+                    <p class="intro">Build beautiful programming books and exercises using GitHub/Git and Markdown.</p>
                 </div>
             </div>
             <div id="body">

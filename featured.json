@@ -2,21 +2,13 @@
     {
         "id": "GitbookIO/javascript",
         "title": "Learn Javascript",
-        "description": "Learn how to make your websites interactive and how to build browser based games."
+        "description": "This interactive book will teach you the basics of programming and Javascript.",
+        "url": "http://gitbookio.github.io/javascript/"
     },
     {
         "id": "SamyPesse/How-to-Make-a-Computer-Operating-System",
-        "title": "How to Make an Operating System in C++",
-        "description": "Learn how to make a computer operating system from scratch in C/C++."
-    },
-    {
-        "id": "GitbookIO/git",
-        "title": "Learn GIT",
-        "description": "Learn how to use GIT for managing your source code and versionning."
-    },
-    {
-        "id": "GitbookIO/about",
-        "title": "How to use GitBook",
-        "description": "Learn how to use GitBook for using GitHub as a writting platform."
+        "title": "How to Make an Operating System",
+        "description": "Learn how to make a computer operating system from scratch in C/C++.",
+        "url": "http://samypesse.github.io/How-to-Make-a-Computer-Operating-System/"
     }
 ]
