@@ -6,8 +6,8 @@
         <link rel="icon" href="static/images/favicon.ico">
         <link rel="stylesheet" href="static/style.css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
-        <meta name="keywords" content="" >
+        <meta name="description" content="Build beautiful programming books and exercises using GitHub/Git and Markdown.">
+        <meta name="keywords" content="gitbook,git,book,programming" >
     </head>
     <body>
         <div class="wrapper">
@@ -15,10 +15,62 @@
                 <div class="inner">
                     <h1>GitBook</h1>
                     <p class="intro">Build beautiful programming books and exercises using GitHub/Git and Markdown.</p>
+                    <p>
+                        <a href="http://gitbookio.github.io/javascript/" class="btn btn-lg btn-success">Checkout an Example</a>
+                    </p>
                 </div>
             </div>
             <div id="body">
-                <div class="featured">
+                <!-- How to use it -->
+                <section class="howto">
+                    <h2>How to Use It</h2>
+                    <hr>
+                    <div class="step">
+                        <p>Install it using:</p>
+                        <pre>$ npm install gitbook -g</pre>
+                    </div>
+                    <div class="step">
+                        <p>And convert your repository using:</p>
+                        <pre>$ gitbook build ./repository --output=./mysite</pre>
+                    </div>
+                </section>
+
+                <!-- Features -->
+                <section class="features">
+                    <div class="container">
+                        <div class="row">
+                            <div class="feature col-md-4">
+                                <div class="icon">
+                                    <i class="fa fa-files-o"></i>
+                                </div>
+                                <h3>Markdown</h3>
+                                <p>Write your books and courses using <b>Markdown</b>, GitBook will convert it to a complete static website.</p>
+                                <p><a href="https://help.github.com/articles/markdown-basics">Learn more about it</a></p>
+                            </div>
+                            <div class="feature col-md-4">
+                                <div class="icon">
+                                    <i class="fa fa-github-alt"></i>
+                                </div>
+                                <h3>GitHub</h3>
+                                <p>Write your book using the <b>Git/GitHub</b> workflow which make it easy to contribute and improve it.</p>
+                                <p><a href="https://github.com/GitbookIO/javascript">Book Example</a></p>
+                            </div>
+                            <div class="feature col-md-4">
+                                <div class="icon">
+                                    <i class="fa fa-play"></i>
+                                </div>
+                                <h3>Interactive</h3>
+                                <p>Your book can contains interactive <b>Javascript</b> exercices (Coming soon: Python, Ruby and more).</p>
+                                <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Featured -->
+                <section class="featured">
+                    <h2>Featured Books</h2>
+                    <hr>
                     <div class="container">
                         <div class="row">
                             
@@ -44,7 +96,7 @@
                             
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
             <div id="footer">
                 <a href="https://github.com/GitbookIO">It's Open Source</a>
