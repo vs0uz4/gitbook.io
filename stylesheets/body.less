@@ -1,47 +1,88 @@
 #body {
-    padding: 60px 0px;
+    padding: 20px 0px;
     max-width: 900px;
     margin: 0px auto;
 
-    .book {
-        background: #fff;
-        text-align: left;
-        margin: 15px 0px;
-        border-radius: 2px;
-        padding: 10px;
+    h2 {
         text-align: center;
-        
-        .content {
-            padding-bottom: 15px;
+    }
 
-            h3 {
-                margin: 0px;
-                font-size: 20px;
-                text-align: center;
-                margin-bottom: 10px;
-            }
+    hr {
+        width: 60px;
+        border-color: #ddd;
+        box-shadow: 0px 1px #fff;
+    }
 
-            p {
-                margin: 0px;
-                font-size: 16px;
-                opacity: 0.6;
-            }
+    section {
+        padding: 0px 10px;
+        margin-bottom: 100px;
+    }
+
+    .howto {
+        text-align: center;
+
+        .step {
+            margin: 25px 0px;
         }
 
-        a {
-            color: inherit;
-            display: block;
+        pre {
+            max-width: 700px;
+            margin: 0px auto;
+        }
+    }
+
+    .features {
+        .feature {
             text-align: center;
-            background: @brand-success;
-            color: #fff;
-            padding: 6px 10px;
-            font-size: 18px;
-            text-transform: uppercase;
 
-            &:hover {
-                background: darken(@brand-success, 15%);
-                text-decoration: none;
+            .icon {
+                font-size: 48px;
             }
         }
+    }
+
+    .featured {
+        .book {
+            background: #fff;
+            text-align: left;
+            margin: 15px 0px;
+            border-radius: 2px;
+            padding: 10px;
+            text-align: center;
+            
+
+            .content {
+                padding-bottom: 15px;
+
+                h3 {
+                    margin: 0px;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    margin: 0px;
+                    font-size: 16px;
+                    opacity: 0.6;
+                }
+            }
+
+            a {
+                color: inherit;
+                display: block;
+                text-align: center;
+                background: @brand-success;
+                color: #fff;
+                padding: 6px 10px;
+                font-size: 18px;
+                text-transform: uppercase;
+
+                &:hover {
+                    background: darken(@brand-success, 15%);
+                    text-decoration: none;
+                }
+            }
+        }   
     }
 }
