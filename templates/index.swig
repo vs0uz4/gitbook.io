@@ -52,7 +52,7 @@
                                     <i class="fa fa-github-alt"></i>
                                 </div>
                                 <h3>GitHub</h3>
-                                <p>Write your book using the <b>Git/GitHub</b> workflow which make it easy to contribute and improve it.</p>
+                                <p>Write your book using the <b>Git/GitHub</b> workflow which makes it easy to contribute and collaborate.</p>
                                 <p><a href="https://github.com/GitbookIO/javascript">Book Example</a></p>
                             </div>
                             <div class="feature col-md-4">
@@ -60,7 +60,7 @@
                                     <i class="fa fa-play"></i>
                                 </div>
                                 <h3>Interactive</h3>
-                                <p>Your book can contains interactive <b>Javascript</b> exercices (Coming soon: Python, Ruby and more).</p>
+                                <p>Your book can contain interactive <b>Javascript</b> exercices (Coming soon: Python, Ruby and more).</p>
                                 <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it</a></p>
                             </div>
                         </div>
