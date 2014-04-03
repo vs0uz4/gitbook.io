@@ -3,11 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>GitBook</title>
-        <link rel="icon" href="static/images/favicon.ico">
+        <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="static/style.css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="Build beautiful programming books and exercises using GitHub/Git and Markdown.">
         <meta name="keywords" content="gitbook,git,book,programming" >
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <script type="text/javascript">
+        (function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+        for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+        mixpanel.init("01eb2b950ae09a5fdb15a98dcc5ff20e");
+        mixpanel.track("homepage");
+        </script>
     </head>
     <body>
         <div class="wrapper">
@@ -31,7 +40,10 @@
                     </div>
                     <div class="step">
                         <p>And convert your repository using:</p>
-                        <pre>$ gitbook build ./repository --output=./mysite</pre>
+                        <pre>$ gitbook build or $ gitbook serve</pre>
+                    </div>
+                    <div class="step">
+                        <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it in the README.md</a></p>
                     </div>
                 </section>
 
@@ -52,7 +64,7 @@
                                     <i class="fa fa-github-alt"></i>
                                 </div>
                                 <h3>GitHub</h3>
-                                <p>Write your book using the <b>Git/GitHub</b> workflow which make it easy to contribute and improve it.</p>
+                                <p>Write your book using the <b>Git/GitHub</b> workflow which makes it easy to contribute and collaborate.</p>
                                 <p><a href="https://github.com/GitbookIO/javascript">Book Example</a></p>
                             </div>
                             <div class="feature col-md-4">
@@ -60,7 +72,7 @@
                                     <i class="fa fa-play"></i>
                                 </div>
                                 <h3>Interactive</h3>
-                                <p>Your book can contains interactive <b>Javascript</b> exercices (Coming soon: Python, Ruby and more).</p>
+                                <p>Your book can contain interactive <b>Javascript</b> exercices (Coming soon: Python, Ruby and more).</p>
                                 <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it</a></p>
                             </div>
                         </div>

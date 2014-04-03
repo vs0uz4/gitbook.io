@@ -40,7 +40,10 @@
                     </div>
                     <div class="step">
                         <p>And convert your repository using:</p>
-                        <pre>$ gitbook build ./repository --output=./mysite</pre>
+                        <pre>$ gitbook build or $ gitbook serve</pre>
+                    </div>
+                    <div class="step">
+                        <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it in the README.md</a></p>
                     </div>
                 </section>
 
