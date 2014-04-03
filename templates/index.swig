@@ -84,7 +84,7 @@
                                     <i class="fa fa-play"></i>
                                 </div>
                                 <h3>Interactive</h3>
-                                <p>Your book can contain interactive <b>Javascript</b> exercices (Coming soon: Python, Ruby and more).</p>
+                                <p>Your book can contain interactive <b>Javascript</b> exercises (Coming soon: Python, Ruby and more).</p>
                                 <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it</a></p>
                             </div>
                         </div>
