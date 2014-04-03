@@ -46,13 +46,13 @@
                     <div class="share">
                         <ul class="social-buttons">
                             <li>
-                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=watch&amp;count=true" width="100" height="20" title="Star on GitHub"></iframe>
+                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=watch&amp;count=true&amp;size=large" width="140" height="30" title="Star on GitHub"></iframe>
                             </li>
                             <li>
-                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=fork&amp;count=true" width="102" height="20" title="Fork on GitHub"></iframe>
+                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=fork&amp;count=true&amp;size=large" width="142" height="30" title="Fork on GitHub"></iframe>
                             </li>
                             <li class="tweet-btn">
-                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.gitbook.io" data-text="GitBook: Build beautiful programming books and exercises using GitHub/Git and Markdown" data-related="SamyPesse">Tweet</a>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.gitbook.io" data-text="GitBook: Build beautiful programming books and exercises using GitHub/Git and Markdown" data-related="SamyPesse" data-size="large">Tweet</a>
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                             </li>
                         </ul>
