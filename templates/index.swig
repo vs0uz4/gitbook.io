@@ -25,7 +25,7 @@
                     <h1>GitBook</h1>
                     <p class="intro">Build beautiful programming books and exercises using GitHub/Git and Markdown.</p>
                     <p>
-                        <a href="{{ example }}" class="btn btn-lg btn-success">Checkout an Example</a>
+                        <a href="{{ example }}" class="btn btn-lg btn-success">Check out an Example</a>
                     </p>
                 </div>
             </div>
