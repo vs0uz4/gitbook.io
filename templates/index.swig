@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>GitBook</title>
-        <link rel="icon" href="static/images/favicon.ico">
+        <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="static/style.css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="Build beautiful programming books and exercises using GitHub/Git and Markdown.">
