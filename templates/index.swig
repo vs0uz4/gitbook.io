@@ -46,10 +46,10 @@
                     <div class="share">
                         <ul class="social-buttons">
                             <li>
-                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=watch&amp;count=true&amp;size=large" width="140" height="30" title="Star on GitHub"></iframe>
+                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=watch&amp;count=true&amp;size=large" width="165" height="30" title="Star on GitHub"></iframe>
                             </li>
                             <li>
-                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=fork&amp;count=true&amp;size=large" width="142" height="30" title="Fork on GitHub"></iframe>
+                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=fork&amp;count=true&amp;size=large" width="162" height="30" title="Fork on GitHub"></iframe>
                             </li>
                             <li class="tweet-btn">
                                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.gitbook.io" data-text="GitBook: Build beautiful programming books and exercises using GitHub/Git and Markdown" data-related="SamyPesse" data-size="large">Tweet</a>
