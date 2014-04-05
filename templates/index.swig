@@ -84,7 +84,7 @@
                                     <i class="fa fa-play"></i>
                                 </div>
                                 <h3>Interactive</h3>
-                                <p>Your book can contain interactive <b>Javascript</b> exercises (Coming soon: Python, Ruby and more).</p>
+                                <p>Your book can contain interactive <b>JavaScript</b> exercises (Coming soon: Python, Ruby and more).</p>
                                 <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it</a></p>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                 </section>
             </div>
             <div id="footer">
-                <a href="https://github.com/GitbookIO">It's Open Source</a>
+                <a href="https://github.com/GitbookIO">It’s Open Source</a>
                   —  
                 <a href="https://github.com/orgs/GitbookIO/members">Made with <i class="fa fa-heart"></i> by a dedicated team</a>
                   —  
