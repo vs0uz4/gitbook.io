@@ -7,7 +7,7 @@
         "grunt-cli": "0.1.11",
         "grunt-contrib-less": "~0.5.0",
         "grunt-swig": "0.2.1",
-        "grunt-gh-pages": "0.9.1"
+        "grunt-gh-pages": "4.0.0"
     },
     "engines": {
         "node": "0.10.x",
